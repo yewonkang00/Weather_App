@@ -5,5 +5,4 @@ Hello World!
 We are kimmessicorp.
 I'm YewonKang.
 Our team members are JeongminKim and SeongbinYoon.
-This semester we are going to do an open source project together this semester.
-
+We are going to do an open source project together this semester.
