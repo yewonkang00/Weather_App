@@ -4,3 +4,5 @@ github page
 Hello World!
 We are kimmessicorp.
 I'm YewonKang.
+Our team members are JeongminKim and SeongbinYoon.
+
