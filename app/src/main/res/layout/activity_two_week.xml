@@ -18,12 +18,11 @@
             android:id="@+id/textViewa"
             android:layout_width="384dp"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/textViewk"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_marginStart="23dp"
             android:layout_marginLeft="23dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="70dp"
             android:text="30"
             android:textSize="24sp" />
 
@@ -153,7 +152,7 @@
             android:layout_alignParentLeft="true"
             android:layout_marginStart="28dp"
             android:layout_marginLeft="28dp"
-            android:layout_marginBottom="-50dp"
+            android:layout_marginBottom="-55dp"
             android:text="TextView"
             android:textColor="#3F51B5"
             android:textSize="30sp"

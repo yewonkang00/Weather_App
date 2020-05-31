@@ -229,8 +229,8 @@ public class MyFirstAdapter extends BaseAdapter {
                 JSONObject weather = jsonObj.getJSONArray("weather").getJSONObject(0);
 
                 String temp = main.getString("temp") + "°C";
-                String tempMin = "Min: " + main.getString("temp_min") + "°C";
-                String tempMax = "Max: " + main.getString("temp_max") + "°C";
+                String tempMin = main.getString("temp_min") + "°C";
+                String tempMax = main.getString("temp_max") + "°C";
                 String address = jsonObj.getString("name");
                 String description = weather.getString("main");
 
@@ -329,8 +329,8 @@ public class MyFirstAdapter extends BaseAdapter {
                 JSONObject weather = jsonObj.getJSONArray("weather").getJSONObject(0);
 
                 String temp = main.getString("temp") + "°C";
-                String tempMin = "Min: " + main.getString("temp_min") + "°C";
-                String tempMax = "Max: " + main.getString("temp_max") + "°C";
+                String tempMin = main.getString("temp_min") + "°C";
+                String tempMax = main.getString("temp_max") + "°C";
                 String address = jsonObj.getString("name");
                 String description = weather.getString("main");
 
@@ -427,8 +427,8 @@ public class MyFirstAdapter extends BaseAdapter {
                 JSONObject weather = jsonObj.getJSONArray("weather").getJSONObject(0);
 
                 String temp = main.getString("temp") + "°C";
-                String tempMin = "Min: " + main.getString("temp_min") + "°C";
-                String tempMax = "Max: " + main.getString("temp_max") + "°C";
+                String tempMin = main.getString("temp_min") + "°C";
+                String tempMax = main.getString("temp_max") + "°C";
                 String address = jsonObj.getString("name");
                 String description = weather.getString("main");
 
@@ -526,8 +526,8 @@ public class MyFirstAdapter extends BaseAdapter {
                 JSONObject weather = jsonObj.getJSONArray("weather").getJSONObject(0);
 
                 String temp = main.getString("temp") + "°C";
-                String tempMin = "Min: " + main.getString("temp_min") + "°C";
-                String tempMax = "Max: " + main.getString("temp_max") + "°C";
+                String tempMin = main.getString("temp_min") + "°C";
+                String tempMax = main.getString("temp_max") + "°C";
                 String address = jsonObj.getString("name");
                 String description = weather.getString("main");
 
@@ -625,8 +625,8 @@ public class MyFirstAdapter extends BaseAdapter {
                 JSONObject weather = jsonObj.getJSONArray("weather").getJSONObject(0);
 
                 String temp = main.getString("temp") + "°C";
-                String tempMin = "Min: " + main.getString("temp_min") + "°C";
-                String tempMax = "Max: " + main.getString("temp_max") + "°C";
+                String tempMin = main.getString("temp_min") + "°C";
+                String tempMax = main.getString("temp_max") + "°C";
                 String address = jsonObj.getString("name");
                 String description = weather.getString("main");
 
@@ -724,8 +724,8 @@ public class MyFirstAdapter extends BaseAdapter {
                 JSONObject weather = jsonObj.getJSONArray("weather").getJSONObject(0);
 
                 String temp = main.getString("temp") + "°C";
-                String tempMin = "Min: " + main.getString("temp_min") + "°C";
-                String tempMax = "Max: " + main.getString("temp_max") + "°C";
+                String tempMin = main.getString("temp_min") + "°C";
+                String tempMax = main.getString("temp_max") + "°C";
                 String address = jsonObj.getString("name");
                 String description = weather.getString("main");
 
@@ -827,8 +827,8 @@ public class MyFirstAdapter extends BaseAdapter {
                 Long updatedAt = jsonObj.getLong("dt");
                 String updatedAtText = new SimpleDateFormat("yyyy.MM.dd hh:mm a", Locale.KOREA).format(new Date(updatedAt * 1000));
                 String temp = main.getString("temp") + "°C";
-                String tempMin = "Min: " + main.getString("temp_min") + "°C";
-                String tempMax = "Max: " + main.getString("temp_max") + "°C";
+                String tempMin = main.getString("temp_min") + "°C";
+                String tempMax = main.getString("temp_max") + "°C";
                 String pressure = main.getString("pressure");
                 String humidity = main.getString("humidity");
 
