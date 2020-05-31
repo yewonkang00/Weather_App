@@ -24,7 +24,7 @@
             android:layout_marginLeft="23dp"
             android:layout_marginTop="70dp"
             android:text="30"
-            android:textSize="24sp" />
+            android:textSize="22sp" />
 
         <TextView
             android:id="@+id/textViewb"
@@ -37,7 +37,7 @@
             android:layout_marginLeft="23dp"
             android:layout_marginTop="20dp"
             android:text="30"
-            android:textSize="24sp" />
+            android:textSize="22sp" />
 
         <TextView
             android:id="@+id/textViewc"
@@ -50,7 +50,7 @@
             android:layout_marginLeft="23dp"
             android:layout_marginTop="22dp"
             android:text="30"
-            android:textSize="24sp" />
+            android:textSize="22sp" />
 
         <TextView
             android:id="@+id/textViewe"
@@ -63,7 +63,7 @@
             android:layout_marginLeft="23dp"
             android:layout_marginTop="21dp"
             android:text="30"
-            android:textSize="24sp" />
+            android:textSize="22sp" />
 
         <TextView
             android:id="@+id/textViewd"
@@ -76,7 +76,7 @@
             android:layout_marginLeft="23dp"
             android:layout_marginTop="21dp"
             android:text="30"
-            android:textSize="24sp" />
+            android:textSize="22sp" />
 
         <TextView
             android:id="@+id/textViewf"
@@ -89,7 +89,7 @@
             android:layout_marginLeft="23dp"
             android:layout_marginTop="21dp"
             android:text="30"
-            android:textSize="24sp" />
+            android:textSize="22sp" />
 
         <TextView
             android:id="@+id/textViewg"
@@ -102,7 +102,7 @@
             android:layout_marginLeft="23dp"
             android:layout_marginTop="21dp"
             android:text="30"
-            android:textSize="24sp" />
+            android:textSize="22sp" />
 
         <TextView
             android:id="@+id/textViewh"
@@ -115,7 +115,7 @@
             android:layout_marginLeft="23dp"
             android:layout_marginTop="21dp"
             android:text="30"
-            android:textSize="24sp" />
+            android:textSize="22sp" />
 
         <TextView
             android:id="@+id/textViewi"
@@ -128,7 +128,7 @@
             android:layout_marginLeft="23dp"
             android:layout_marginTop="21dp"
             android:text="30"
-            android:textSize="24sp" />
+            android:textSize="22sp" />
 
         <TextView
             android:id="@+id/textViewj"
@@ -155,7 +155,7 @@
             android:layout_marginBottom="-55dp"
             android:text="TextView"
             android:textColor="#3F51B5"
-            android:textSize="30sp"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
     </RelativeLayout>

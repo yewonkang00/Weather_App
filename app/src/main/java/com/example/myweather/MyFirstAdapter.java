@@ -228,7 +228,7 @@ public class MyFirstAdapter extends BaseAdapter {
                 JSONObject main = jsonObj.getJSONObject("main");
                 JSONObject weather = jsonObj.getJSONArray("weather").getJSONObject(0);
 
-                String temp = main.getString("temp") + "°C";
+                int temp = main.getInt("temp");
                 String tempMin = main.getString("temp_min") + "°C";
                 String tempMax = main.getString("temp_max") + "°C";
                 String address = jsonObj.getString("name");
@@ -239,7 +239,7 @@ public class MyFirstAdapter extends BaseAdapter {
 
                 /* Populating extracted data into our views */
                 cityText1.setText(address);
-                tempText1.setText(temp+"  ("+tempMin+" ~ "+tempMax+")");
+                tempText1.setText(temp+ "°C" + "  (Max: "+tempMin+" / Min: "+tempMax+")");
             } catch (JSONException e) {
 
             }
@@ -328,7 +328,7 @@ public class MyFirstAdapter extends BaseAdapter {
                 JSONObject main = jsonObj.getJSONObject("main");
                 JSONObject weather = jsonObj.getJSONArray("weather").getJSONObject(0);
 
-                String temp = main.getString("temp") + "°C";
+                int temp = main.getInt("temp");
                 String tempMin = main.getString("temp_min") + "°C";
                 String tempMax = main.getString("temp_max") + "°C";
                 String address = jsonObj.getString("name");
@@ -337,7 +337,7 @@ public class MyFirstAdapter extends BaseAdapter {
                 weather2.setImageResource(mWeatherImageMap.get(description));
                 /* Populating extracted data into our views */
                 cityText2.setText(address);
-                tempText2.setText(temp+"  ("+tempMin+" ~ "+tempMax+")");
+                tempText2.setText(temp+ "°C" + "  (Max: "+tempMin+" / Min: "+tempMax+")");
 
             } catch (JSONException e) {
             }
@@ -426,7 +426,7 @@ public class MyFirstAdapter extends BaseAdapter {
                 JSONObject main = jsonObj.getJSONObject("main");
                 JSONObject weather = jsonObj.getJSONArray("weather").getJSONObject(0);
 
-                String temp = main.getString("temp") + "°C";
+                int temp = main.getInt("temp");
                 String tempMin = main.getString("temp_min") + "°C";
                 String tempMax = main.getString("temp_max") + "°C";
                 String address = jsonObj.getString("name");
@@ -436,7 +436,7 @@ public class MyFirstAdapter extends BaseAdapter {
 
                 /* Populating extracted data into our views */
                 cityText3.setText(address);
-                tempText3.setText(temp+"  ("+tempMin+" ~ "+tempMax+")");
+                tempText3.setText(temp+ "°C" + "  (Max: "+tempMin+" / Min: "+tempMax+")");
 
             } catch (JSONException e) {
             }
@@ -525,7 +525,7 @@ public class MyFirstAdapter extends BaseAdapter {
                 JSONObject main = jsonObj.getJSONObject("main");
                 JSONObject weather = jsonObj.getJSONArray("weather").getJSONObject(0);
 
-                String temp = main.getString("temp") + "°C";
+                int temp = main.getInt("temp");
                 String tempMin = main.getString("temp_min") + "°C";
                 String tempMax = main.getString("temp_max") + "°C";
                 String address = jsonObj.getString("name");
@@ -535,7 +535,7 @@ public class MyFirstAdapter extends BaseAdapter {
 
                 /* Populating extracted data into our views */
                 cityText4.setText(address);
-                tempText4.setText(temp+"  ("+tempMin+" ~ "+tempMax+")");
+                tempText4.setText(temp+ "°C" + "  (Max: "+tempMin+" / Min: "+tempMax+")");
 
             } catch (JSONException e) {
             }
@@ -624,7 +624,7 @@ public class MyFirstAdapter extends BaseAdapter {
                 JSONObject main = jsonObj.getJSONObject("main");
                 JSONObject weather = jsonObj.getJSONArray("weather").getJSONObject(0);
 
-                String temp = main.getString("temp") + "°C";
+                int temp = main.getInt("temp");
                 String tempMin = main.getString("temp_min") + "°C";
                 String tempMax = main.getString("temp_max") + "°C";
                 String address = jsonObj.getString("name");
@@ -634,7 +634,7 @@ public class MyFirstAdapter extends BaseAdapter {
 
                 /* Populating extracted data into our views */
                 cityText5.setText(address);
-                tempText5.setText(temp+"  ("+tempMin+" ~ "+tempMax+")");
+                tempText5.setText(temp+ "°C" + "  (Max: "+tempMin+" / Min: "+tempMax+")");
 
             } catch (JSONException e) {
             }
@@ -723,7 +723,7 @@ public class MyFirstAdapter extends BaseAdapter {
                 JSONObject main = jsonObj.getJSONObject("main");
                 JSONObject weather = jsonObj.getJSONArray("weather").getJSONObject(0);
 
-                String temp = main.getString("temp") + "°C";
+                int temp = main.getInt("temp");
                 String tempMin = main.getString("temp_min") + "°C";
                 String tempMax = main.getString("temp_max") + "°C";
                 String address = jsonObj.getString("name");
@@ -733,7 +733,7 @@ public class MyFirstAdapter extends BaseAdapter {
 
                 /* Populating extracted data into our views */
                 cityText6.setText(address);
-                tempText6.setText(temp+"  ("+tempMin+" ~ "+tempMax+")");
+                tempText6.setText(temp+ "°C" + "  (Max: "+tempMin+" / Min: "+tempMax+")");
 
             } catch (JSONException e) {
             }
@@ -826,7 +826,7 @@ public class MyFirstAdapter extends BaseAdapter {
 
                 Long updatedAt = jsonObj.getLong("dt");
                 String updatedAtText = new SimpleDateFormat("yyyy.MM.dd hh:mm a", Locale.KOREA).format(new Date(updatedAt * 1000));
-                String temp = main.getString("temp") + "°C";
+                int temp = main.getInt("temp");
                 String tempMin = main.getString("temp_min") + "°C";
                 String tempMax = main.getString("temp_max") + "°C";
                 String pressure = main.getString("pressure");
@@ -842,7 +842,7 @@ public class MyFirstAdapter extends BaseAdapter {
 
                 /* Populating extracted data into our views */
                 cityText7.setText(address);
-                tempText7.setText(temp+"  ("+tempMin+" ~ "+tempMax+")");
+                tempText7.setText(temp+ "°C" + "  (Max: "+tempMin+" / Min: "+tempMax+")");
 
 
             } catch (JSONException e) {

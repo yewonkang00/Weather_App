@@ -244,11 +244,11 @@ public class DetailActivity extends AppCompatActivity {
                             t7_humidity.setTextColor(Color.parseColor("#FFFFFF"));
                             t8_speed.setTextColor(Color.parseColor("#FFFFFF"));
                         }
-                        else if("Clouds".equals(description)){
-                            picture.setImageResource(R.drawable.morningc);
+                        else if("Clear".equals(description)){
+                            picture.setImageResource(R.drawable.mornings);
                         }
                         else{
-                            picture.setImageResource(R.drawable.mornings);
+                            picture.setImageResource(R.drawable.morningc);
                         }
                     }
                     else if(Integer.parseInt(time) >= 9 && Integer.parseInt(time) < 12){
@@ -263,10 +263,7 @@ public class DetailActivity extends AppCompatActivity {
                             t7_humidity.setTextColor(Color.parseColor("#FFFFFF"));
                             t8_speed.setTextColor(Color.parseColor("#FFFFFF"));
                         }
-                        else if("Clouds".equals(description)){
-                            picture.setImageResource(R.drawable.aftercloud);
-                        }
-                        else{
+                        else if("Clear".equals(description)){
                             picture.setImageResource(R.drawable.leather);
                             t1_city.setTextColor(Color.parseColor("#FFFFFF"));
                             t2_date.setTextColor(Color.parseColor("#FFFFFF"));
@@ -276,6 +273,9 @@ public class DetailActivity extends AppCompatActivity {
                             t6_min.setTextColor(Color.parseColor("#FFFFFF"));
                             t7_humidity.setTextColor(Color.parseColor("#FFFFFF"));
                             t8_speed.setTextColor(Color.parseColor("#FFFFFF"));
+                        }
+                        else{
+                            picture.setImageResource(R.drawable.aftercloud);
                         }
                     }
                     else{
@@ -290,10 +290,7 @@ public class DetailActivity extends AppCompatActivity {
                             t7_humidity.setTextColor(Color.parseColor("#FFFFFF"));
                             t8_speed.setTextColor(Color.parseColor("#FFFFFF"));
                         }
-                        else if("Clouds".equals(description)){
-                            picture.setImageResource(R.drawable.nightcloud);
-                        }
-                        else{
+                        else if("Clear".equals(description)){
                             picture.setImageResource(R.drawable.black);
                             t1_city.setTextColor(Color.parseColor("#FFFFFF"));
                             t2_date.setTextColor(Color.parseColor("#FFFFFF"));
@@ -303,6 +300,9 @@ public class DetailActivity extends AppCompatActivity {
                             t6_min.setTextColor(Color.parseColor("#FFFFFF"));
                             t7_humidity.setTextColor(Color.parseColor("#FFFFFF"));
                             t8_speed.setTextColor(Color.parseColor("#FFFFFF"));
+                        }
+                        else{
+                            picture.setImageResource(R.drawable.nightcloud);
                         }
                     }
                 }
@@ -319,7 +319,10 @@ public class DetailActivity extends AppCompatActivity {
                             t7_humidity.setTextColor(Color.parseColor("#FFFFFF"));
                             t8_speed.setTextColor(Color.parseColor("#FFFFFF"));
                         }
-                        else if("Clouds".equals(description)){
+                        else if("Clear".equals(description)){
+                            picture.setImageResource(R.drawable.cloudsun);
+                        }
+                        else{
                             picture.setImageResource(R.drawable.aftercloud);
                             t1_city.setTextColor(Color.parseColor("#FFFFFF"));
                             t2_date.setTextColor(Color.parseColor("#FFFFFF"));
@@ -329,9 +332,6 @@ public class DetailActivity extends AppCompatActivity {
                             t6_min.setTextColor(Color.parseColor("#FFFFFF"));
                             t7_humidity.setTextColor(Color.parseColor("#FFFFFF"));
                             t8_speed.setTextColor(Color.parseColor("#FFFFFF"));
-                        }
-                        else{
-                            picture.setImageResource(R.drawable.cloudsun);
 
                         }
                     }
@@ -347,7 +347,10 @@ public class DetailActivity extends AppCompatActivity {
                             t7_humidity.setTextColor(Color.parseColor("#FFFFFF"));
                             t8_speed.setTextColor(Color.parseColor("#FFFFFF"));
                         }
-                        else if("Clouds".equals(description)){
+                        else if("Clear".equals(description)){
+                            picture.setImageResource(R.drawable.cloudsun);
+                        }
+                        else {
                             picture.setImageResource(R.drawable.aftercloud);
                             t1_city.setTextColor(Color.parseColor("#FFFFFF"));
                             t2_date.setTextColor(Color.parseColor("#FFFFFF"));
@@ -358,19 +361,16 @@ public class DetailActivity extends AppCompatActivity {
                             t7_humidity.setTextColor(Color.parseColor("#FFFFFF"));
                             t8_speed.setTextColor(Color.parseColor("#FFFFFF"));
                         }
-                        else {
-                            picture.setImageResource(R.drawable.cloudsun);
-                        }
                     }
                     else if(Integer.parseInt(time) >= 6 && Integer.parseInt(time) < 10){
                         if("Rain".equals(description)){
                             picture.setImageResource(R.drawable.nightr);
                         }
-                        else if("Clouds".equals(description)){
-                            picture.setImageResource(R.drawable.nightcloud);
+                        else if("Clear".equals(description)){
+                            picture.setImageResource(R.drawable.nights);
                         }
                         else {
-                            picture.setImageResource(R.drawable.nights);
+                            picture.setImageResource(R.drawable.nightcloud);
                         }
                         t1_city.setTextColor(Color.parseColor("#FFFFFF"));
                         t2_date.setTextColor(Color.parseColor("#FFFFFF"));
@@ -385,11 +385,11 @@ public class DetailActivity extends AppCompatActivity {
                         if("Rain".equals(description)){
                             picture.setImageResource(R.drawable.nightr);
                         }
-                        else if("Clouds".equals(description)){
-                            picture.setImageResource(R.drawable.nightcloud);
+                        else if("Clear".equals(description)){
+                            picture.setImageResource(R.drawable.black);
                         }
                         else{
-                            picture.setImageResource(R.drawable.black);
+                            picture.setImageResource(R.drawable.nightcloud);
                         }
                         t1_city.setTextColor(Color.parseColor("#FFFFFF"));
                         t2_date.setTextColor(Color.parseColor("#FFFFFF"));
