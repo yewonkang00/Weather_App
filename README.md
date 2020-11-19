@@ -1,2 +1,2 @@
-<h1> My Weather <h1>
+<h1> My Weather </h1>
 It is a weather app made with Android Studio.
